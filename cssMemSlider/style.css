@@ -464,7 +464,7 @@ th {
     height: 100%;
     max-width: 60vw;
     max-height: 50vh;
-    background-color: #f10d0d;
+    /* background-color: #f10d0d; */
 
 }
 
@@ -485,7 +485,7 @@ th {
     /* position: relative; */
     min-width:100%;
     height: 100%;
-    background-color: #5747ca;
+    /* background-color: #5747ca; */
     border:#000 solid 1px;
 }
 
@@ -495,6 +495,22 @@ th {
 
 .meme-slide:nth-child(1) {
     background-image: url(./assets/img/0.png);
+    background-size: cover;
+}
+.meme-slide:nth-child(2) {
+    background-image: url(./assets/img/andzhelina-dzholi.jpg);
+    background-size: cover;
+}
+.meme-slide:nth-child(3) {
+    background-image: url(./assets/img/igra-v-kalmara.jpg);
+    background-size: cover;
+}
+.meme-slide:nth-child(4) {
+    background-image: url(./assets/img/tancujushchij-di-kaprio-768x512.jpg);
+    background-size: cover;
+}
+.meme-slide:nth-child(5) {
+    background-image: url(./assets/img/mem-laska-iz-otrjada-samoubijc.jpg);
     background-size: cover;
 }
 
