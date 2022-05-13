@@ -446,8 +446,25 @@ th {
 
 /* ------------- Normalize - finish ------------------ */
 
+/* ---- palette - start --------------------------------*/
+:root {
+/* CSS HEX */
+--barn-red: #780000ff;
+--venetian-red: #c1121fff;
+--papaya-whip: #fdf0d5ff;
+--prussian-blue: #003049ff;
+--air-superiority-blue: #669bbcff;
+--blue-sapphire: #0066ccff;
+--blue-yonder: #a2a2dfff;
+
+--height-size: 20rem;
+--width-size: 30rem;
+
+}
+/* ---- palette - finish --------------------------------*/
+
 .body {
-    background-color: #f2f2f2;
+    background-color: #716d6d;
     width: 100vw;
     height: 100vh;
     margin: auto;
@@ -458,8 +475,8 @@ th {
     margin: auto;
     width: 100%;
     height: 100%;
-    max-width: 60vw;
-    max-height: 50vh;
+    max-width: var(--width-size);
+    max-height: var(--height-size);
     /* background-color: #f10d0d; */
 
 }
